@@ -1,0 +1,46 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+::before , ::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    line-height: 1.8;
+    background:rgb(237, 237, 237);   
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.612);
+    ;
+}
+
+ul {
+    list-style: none;
+}
+
+
+nav{
+    position: fixed;
+}
+
+/* li.active a .icon {
+    transform: translateY(-22px);
+} 
+
+.active-tab {
+  position: absolute;
+  top: 90px;
+  width: 57px;
+  height: 57px;
+  left: 176px;
+  border-radius: 15px;
+  border: 6px solid rgb(237, 237, 237);
+  transform: rotate(45deg);
+  background: linear-gradient(180deg, #00B0DB 0%, #42DAFF 100%);
+  box-shadow: 111;
+}   */
